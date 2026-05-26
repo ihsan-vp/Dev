@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* MAIN CONTAINER */
+
+.home{
+    background-color: rgb(193, 154, 70);
+    color: rgb(80, 213, 142);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+
+/* LOGO SECTION */
+
+.logo-section{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo{
+    width:60px;
+    height:60px;
+    object-fit:cover;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content:flex-end;
+}
+
+/* LINKS */
+
+.nav-links{
+    display:flex;
+    gap:20px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:rgb(66, 31, 31);
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:white;
+}
+
+/* RESPONSIVE DESIGN FOR MOBILE */
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .nav-links {
+        justify-content: center;
+    }
+}
