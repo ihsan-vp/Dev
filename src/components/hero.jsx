@@ -2,7 +2,7 @@ import "./hero.css";
 
 function Hero() {
   return (
-    <div className="hero-section">
+    <div className="hero-section"id="home">
         <div className="hero-body">
             <div className="hero-header">
                 <h1>Car Accessories</h1>
