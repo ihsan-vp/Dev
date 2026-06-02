@@ -5,8 +5,9 @@ function Hero() {
     <div className="hero-section"id="home">
         <div className="hero-body">
             <div className="hero-header">
-                <h1>Car Accessories</h1>
-                <p>Car accessories are supplementary products or upgrades used to enhance your vehicle's functionality, comfort, aesthetics, or safety. They range from essential gadgets and emergency tools to decorative additions.</p>
+                <h1>🛠️ Car 🛠️</h1>
+                <p>“Your Car, Our Care”<br />“Expert Care for Every Ride”<br />
+“Reliable Repairs, Every Time”</p>
             </div>
         </div>
     </div>

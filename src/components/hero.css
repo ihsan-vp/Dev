@@ -34,13 +34,15 @@
 .hero-header h1  {
     font-size: 3rem;
     margin-bottom: 20px;
-      animation: slideDown 5s ease infinite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      animation: slideDown 15s ease infinite;
 }
 
 .hero-header p {
     font-size: 1.6rem;
     line-height: 1.5;
-          animation: slideDown 5s ease infinite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+          animation: slideDown 15s ease infinite;
 
 }
 

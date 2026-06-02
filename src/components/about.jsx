@@ -5,21 +5,21 @@ function About() {
   const items = [
     {
       id: 1,
-      title: "Carbon-Ceramic Brake Rotors",
-      image: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=500&auto=format&fit=crop&q=60",
-      specs: "High-Heat Resistance | Cross-Drilled | Ultra-Lightweight",
+      title: "Performance Engine Oils",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnZXBKlrc1PIEaz3rRyGGRY1BbClj4tghaKA&s",
+      specs: "High-Heat Resistance | Fuel Efficency | Better Engine Life",
     },
     {
       id: 2,
-      title: "Twin-Scroll Turbocharger",
-      image: "https://images.unsplash.com/photo-1616422285623-13ff0162193c?w=500&auto=format&fit=crop&q=60",
-      specs: "Billet Compressor Wheel | Up to 30 PSI | Anti-Surge Housing",
+      title: "Ceramic Brake Pads",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz-LIROmxs5_U4WNQHRhqHQVgh2p1Fc45WvQ&s",
+      specs: " Excellent for everyday commutes and consistent brakin |Generate fine, light-colored dust that does not stick to your rims.| Powerfull Brakeing",
     },
     {
       id: 3,
-      title: "Alcantara Sport Steering Wheel",
-      image: "https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=500&auto=format&fit=crop&q=60",
-      specs: "Ergonomic Grip | Integrated Paddle Shifters | Carbon Fiber Trim",
+      title: "Head Lamps",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ79_tna7Iy4CaEgFVTvBjFPRemc5dIVMU_mw&s",
+      specs: " Ranges from \(30\text{W}\) up to \(150+\text{W}\) per bulb. Higher wattage requires advanced heat sinks or cooling fans."
     },
     {
       id: 4,

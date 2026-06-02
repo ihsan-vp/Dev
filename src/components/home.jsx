@@ -18,7 +18,7 @@ function Home() {
       {/* LOGO */}
       <div className="logo-section">
         <img src={logo} alt="logo" className="logo" />
-        <h1 className="heading">ACCESSORIES</h1>
+        <h1 className="heading">DUST AUTOMOTIVE</h1>
       </div>
 
       {/* DESKTOP NAVBAR */}

@@ -6,7 +6,6 @@ function Contact() {
     name: "",
     email: "",
     phone: "",
-    partNumber: "", // Added since your theme is auto spares
     message: "",
   });
 
@@ -20,24 +19,47 @@ function Contact() {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    
-    // Process form data here (e.g., API call to backend)
-    console.log("Form Submitted Successfully:", formData);
-    
-    // Show success message and clear form
-    setSubmitted(true);
-    setFormData({ name: "", email: "", phone: "", partNumber: "", message: "" });
-    
-    // Hide success message after 5 seconds
-    setTimeout(() => setSubmitted(false), 5000);
-  };
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  // Your WhatsApp number with country code
+  const phoneNumber = "+917591943756";
+
+  // Create message
+  const message = `
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+Message: ${formData.message}
+  `;
+
+  // Encode message for URL
+  const encodedMessage = encodeURIComponent(message);
+
+  // WhatsApp URL
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+  // Open WhatsApp
+  window.open(whatsappURL, "_blank");
+
+  // Optional success state
+  setSubmitted(true);
+
+  // Clear form
+  setFormData({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  setTimeout(() => setSubmitted(false), 5000);
+};
 
   return (
     <div className="contact-container" id="contact">
       <div className="contact-header">
-        <h2>Contact Our Parts Experts</h2>
+        <h2>Contact us We Help You</h2>
         <p>Have questions about compatibility or looking for a specific auto spare? Drop us a line!</p>
       </div>
 
@@ -88,17 +110,6 @@ function Contact() {
           </div>
         </div>
 
-        <div className="form-group">
-          <label htmlFor="partNumber">Part Number / Vehicle Model (Optional)</label>
-          <input
-            type="text"
-            id="partNumber"
-            name="partNumber"
-            value={formData.partNumber}
-            onChange={handleChange}
-            placeholder="e.g., 2018 suzuki vxi Brake Pad"
-          />
-        </div>
 
         <div className="form-group">
           <label htmlFor="message">Your Message *</label>
