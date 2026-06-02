@@ -4,6 +4,7 @@ import Hero from './components/hero'
 import About from './components/about'
 import Services from './components/services'
 import Contact from './components/contact'
+import Footer from './components/footer'
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
@@ -15,7 +16,8 @@ function App() {
       <Hero />
       <About />
       <Services />
-      <Contact/>
+      <Contact />
+      <Footer />
     </>
   )
 }

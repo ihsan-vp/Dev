@@ -51,7 +51,7 @@ function services() {
   };
 
   return (
-    <div className="services-container" id="service">
+    <div className="services-container" id="services">
       <header className="services-header">
         <h1>Our Elite Auto Services</h1>
         <p>Professional automotive care backed by certified mechanics, cutting-edge tech, and a passion for precision.</p>

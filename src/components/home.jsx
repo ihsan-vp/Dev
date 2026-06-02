@@ -26,7 +26,7 @@ function Home() {
         <div className="nav-links desktop-nav">
           <a href="/">Home</a>
           <a href="#about">About us</a>
-          <a href="#service">Services</a>
+          <a href="#services">Services</a>
           <a href="#contact">Contact us</a>
         </div>
       </nav>
